@@ -22,10 +22,10 @@
             <button type="button" onclick="Numbers('4')">4</button>
             <button type="button" onclick="Numbers(5)">5</button>
             <button type="button" onclick="Numbers(6)">6</button>
-            <button type="button" onclick="subtract('-')" id="isubtract">-</button><br>
-            <button type="button" onclick="Numbers(7)" id="iseven">7</button>
-            <button type="button" onclick="Numbers(8)" id="ieight">8</button>
-            <button type="button" onclick="Numbers(9)" id="inine">9</button>
+            <button type="button" onclick="subtract('-')">-</button><br>
+            <button type="button" onclick="Numbers(7)">7</button>
+            <button type="button" onclick="Numbers(8)">8</button>
+            <button type="button" onclick="Numbers(9)">9</button>
             <button type="button" onclick="multiply('*')">*</button><br>
             <button type="button" onclick="Numbers(0)">0</button>
             <button type="button" onclick="clr()">AC</button>
@@ -43,9 +43,7 @@
 
         }
         function Numbers(num) {
-            // const input=document.getElementById("ip");
-            console.log(num, "num");
-            // console.log(input,"ip");
+        
             input.value += num;
 
         }
@@ -53,7 +51,6 @@
             input.value = eval(input.value);
         }
         function add(addition) {
-            // const input=document.getElementById("ip");
             input.value += addition;
         }
         function subtract(sub) {
