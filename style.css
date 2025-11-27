@@ -7,9 +7,10 @@ body{
     justify-content: center;
 }
 .main{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
-form.button{
-    font-size: 300px;
+button{
+    padding: 13px;
 }
